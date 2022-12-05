@@ -11,7 +11,7 @@ import SwiftUI
 struct IncrementalSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GitRepoSearchView(viewModel: .init())
         }
     }
 }

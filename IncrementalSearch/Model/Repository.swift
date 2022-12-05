@@ -18,7 +18,6 @@ struct Repository: Codable, Identifiable {
     let owner: Owner?
     let numberOfStar: Int?
         
-    
     enum CodingKeys: String, CodingKey {
         case id
         case name
@@ -29,5 +28,4 @@ struct Repository: Codable, Identifiable {
         case owner
         case numberOfStar = "stargazers_count"
     }
-    
 }

@@ -13,5 +13,4 @@ struct AppString {
     static let searching = "Searching"
     static let cancelButtonTitle = "Cancel"
     static let language = "Language: "
-//    static let homeURL = "https://www.hackingwithswift.com"
 }
